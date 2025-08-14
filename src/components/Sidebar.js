@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { getAuth, signOut } from 'firebase/auth';
-import { colors, typography, breakpoints } from '../styles/GlobalStyles';
+import { colors, typography } from '../styles/GlobalStyles';
 
 const Sidebar = () => {
   const navigate = useNavigate();

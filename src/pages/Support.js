@@ -17,7 +17,9 @@ const colors = {
 };
 
 const Support = () => {
+  // eslint-disable-next-line no-unused-vars
   const navigate = useNavigate();
+  // eslint-disable-next-line no-unused-vars
   const [activeTab, setActiveTab] = useState('faqs'); // Keep this for consistency but only show FAQs
   
   // Card component for better design consistency

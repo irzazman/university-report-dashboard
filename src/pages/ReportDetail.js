@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { getFirestore, doc, getDoc, updateDoc, collection, onSnapshot, query, where } from "firebase/firestore";
+// eslint-disable-next-line no-unused-vars
 import Card from '../components/Card';
 import './Dashboard.css';
 
