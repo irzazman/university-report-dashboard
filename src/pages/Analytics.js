@@ -59,6 +59,7 @@ const Analytics = () => {
     startDate: '',
     endDate: ''
   });
+  // eslint-disable-next-line no-unused-vars
   const [showCustomDatePicker, setShowCustomDatePicker] = useState(false);
   const [showDatePicker, setShowDatePicker] = useState(false);
   const [calendarView, setCalendarView] = useState({
@@ -67,6 +68,7 @@ const Analytics = () => {
     toMonth: new Date().getMonth(),
     toYear: new Date().getFullYear()
   });
+  // eslint-disable-next-line no-unused-vars
   const [selectedDates, setSelectedDates] = useState({
     start: null,
     end: null
